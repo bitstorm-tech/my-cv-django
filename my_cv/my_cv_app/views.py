@@ -1,5 +1,5 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def handle(request):
-    return HttpResponse('Yup, works as intended!')
+    return render(request, 'base/base.html')
