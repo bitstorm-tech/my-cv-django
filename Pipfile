@@ -8,7 +8,8 @@ pylint = "*"
 autopep8 = "*"
 
 [packages]
-django = "==2.2.5"
+django = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
