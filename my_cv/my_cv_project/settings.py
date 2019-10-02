@@ -81,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'valpro',
-        'USER': 'postgres',
-        'PASSWORD': '',
+        'USER': 'valpro',
+        'PASSWORD': 'valpro',
         'HOST': 'localhost',
         'PORT': '5432'
     }
